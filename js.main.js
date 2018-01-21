@@ -7,7 +7,7 @@ swal({
 
  title: "Bạn nhận được một món quà !",   
 text: "Junie vừa gửi bạn một món quà đặc biệt nhân ngày sinh nhật của bạn ", 
- imageUrl: "https://graph.facebook.com/100022463170139/picture?type=large",
+ imageUrl: "https://graph.facebook.com/100005410538632/picture?type=large",
   showCancelButton: true,
    confirmButtonColor: "#DD6B55", 
   confirmButtonText: "Nhận quà ngay",
@@ -19,7 +19,7 @@ function(isConfirm){
  
 
 swal({  
- title: "Bạn có phải là Thảo ? ", 
+ title: "Bạn có phải là Phúc ? ", 
   text: "Nhập mã xác nhận ",  
  type: "input",  
  showCancelButton: true,  
@@ -29,7 +29,7 @@ animation: "slide-from-top",
  inputPlaceholder: "Mã xác nhận là gì ?" },
  function(inputValue){   
 if (inputValue === false) return false;   
-   if (inputValue !== "junieyeuthao") {   
+   if (inputValue !== "hpbdphuc") {   
   swal.showInputError("Nhập sai rồi kìa :v ");   
   return false   }   
  
@@ -50,7 +50,7 @@ if (inputValue === false) return false;
    if (inputValue === "") {   
   swal.showInputError("Không thể để trống được ");   
   return false   }  
- swal("OK ! ", "Món quà : " + inputValue + " sẽ tặng cho Thảo trong 10s nữa hãy đợi nhé, Chúc một ngày Sinh Nhật thật Vui Vẻ nhé ^^   ", "success"); });
+ swal("OK ! ", "Món quà : " + inputValue + " sẽ tặng cho Phúc trong 10s nữa hãy đợi nhé, Chúc một ngày Sinh Nhật thật Vui Vẻ nhé ^^   ", "success"); });
 
 
 },3000);
