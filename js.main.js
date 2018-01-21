@@ -61,7 +61,7 @@ if (inputValue === false) return false;
 
  }
 else {   
-  swal("KHÔNG NHẬN ", "Bạn vừa từ chối món quà từ HUỲNH THANH TÙNG ,    Ấn F5 nếu muốn nhận lại quà :D ", "error"); 
+  swal("KHÔNG NHẬN ", "Bạn vừa từ chối món quà từ Junie ,    Ấn F5 nếu muốn nhận lại quà :D ", "error"); 
 
   } });
 
