@@ -38,7 +38,7 @@ setTimeout(function(){
 
 swal({  
  title: "Nhập tên món quà nào đó ", 
-  text: "Thảo muốn nhận quà gì nào ? ",  
+  text: "Phúc muốn nhận quà gì nào ? ",  
  type: "input",  
  showCancelButton: true,  
  closeOnConfirm: false,   
