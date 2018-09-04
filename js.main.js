@@ -6,8 +6,8 @@ setTimeout(function(){
 swal({  
 
  title: "Bạn nhận được một món quà !",   
-text: "Junie vừa gửi bạn một món quà đặc biệt nhân ngày sinh nhật của bạn ", 
- imageUrl: "https://graph.facebook.com/100005410538632/picture?type=large",
+text: "Junie vừa gửi Cụt một món quà đặc biệt nhân ngày sinh nhật của bạn ", 
+ imageUrl: "https://graph.facebook.com/100016875944497/picture?type=large",
   showCancelButton: true,
    confirmButtonColor: "#DD6B55", 
   confirmButtonText: "Nhận quà ngay",
@@ -19,7 +19,7 @@ function(isConfirm){
  
 
 swal({  
- title: "Bạn có phải là Phúc ? ", 
+ title: "Bạn có phải là Cụt ? ", 
   text: "Nhập mã xác nhận ",  
  type: "input",  
  showCancelButton: true,  
@@ -29,7 +29,7 @@ animation: "slide-from-top",
  inputPlaceholder: "Mã xác nhận là gì ?" },
  function(inputValue){   
 if (inputValue === false) return false;   
-   if (inputValue !== "hpbdphuc") {   
+   if (inputValue !== "emyeucut") {   
   swal.showInputError("Nhập sai rồi kìa :v ");   
   return false   }   
  
@@ -38,7 +38,7 @@ setTimeout(function(){
 
 swal({  
  title: "Nhập tên món quà nào đó ", 
-  text: "Phúc muốn nhận quà gì nào ? ",  
+  text: "Cụt muốn nhận quà gì nào ? ",  
  type: "input",  
  showCancelButton: true,  
  closeOnConfirm: false,   
@@ -50,7 +50,7 @@ if (inputValue === false) return false;
    if (inputValue === "") {   
   swal.showInputError("Không thể để trống được ");   
   return false   }  
- swal("OK ! ", "Món quà : " + inputValue + " sẽ tặng cho Phúc trong 10s nữa hãy đợi nhé, Chúc một ngày Sinh Nhật thật Vui Vẻ nhé ^^   ", "success"); });
+ swal("OK ! ", "Món quà : " + inputValue + " sẽ tặng cho Cụt trong 10s nữa hãy đợi nhé, Chúc một ngày Sinh Nhật thật Vui Vẻ nhé ^^   ", "success"); });
 
 
 },3000);
